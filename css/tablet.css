@@ -1,0 +1,10 @@
+.achievements {
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.gold-medal {
+    border-right: none;
+}
+.silver-medal {
+    border-right: none;
+}

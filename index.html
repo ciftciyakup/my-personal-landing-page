@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yakup Çiftçi</title>
+    <meta name="keywords" content="Yakup Çiftçi,HTML,CSS,JavaScript,Judo">
+    <meta name="description" content="Yakup Çiftçi">
+    <!-- Fonts Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Fonts Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Tablet -->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+</head>
+
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="heading-small">Yakup Çiftçi</h1>
+                <ul>
+                    <li><a href="#home">Ana Sayfa</a></li>
+                    <li><a href="#education">Eğitim</a></li>
+                    <li><a href="#achievements">Başarılar</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <img src="images/yakupciftci-300x300.JPG" alt="Yakup Çiftçi">
+
+        <div class="name text-center">
+            <h2 class="heading-big">Yakup Çiftçi</h2>
+            <p>Bilgisayar Mühendisi | Judoka</p>
+        </div>
+        <a href="education" class="btn btn-primary">Eğitime Git</a>
+    </section>
+    <section id="education" class="bg-dark-blue">
+        <h3 class="text-center heading-medium">Eğitim</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>İlköğretim</h3>
+                <p>
+                    Şanlıurfa Yakup Kalfa İlköğretim Okulu
+                </p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Ortaöğretim</h3>
+                <p>
+                    Şanlıurfa Mehmet Güneş Anadolu Öğretmen Lisesi
+                </p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Yükseköğretim</h3>
+                <p>
+                    Düzce Üniversitesi Teknoloji Fakültesi Bilgisayar Mühendisliği
+                </p>
+            </article>
+        </div>
+    </section>
+    <section id="achievements">
+        <h3 class="text-center heading-medium">Başarılar</h3>
+        <div class="container">
+            <div class="achievements">
+                <div class="medal gold-medal">
+                    <img src="/images/gold-medal.png" alt="Altın Madalya">
+                    <ul class="gold">
+                        <li>2021 - Büyükler Kuraş Türkiye Şampiyonası - Karaman</li>
+                        <li>2016 - Anadolu Yıldızlar Ligi Güneydoğu Anadolu Bölgesi - Şanlıurfa</li>
+                        <li>2015 - Anadolu Yıldızlar Ligi Doğu Anadolu - Güneydoğu Anadolu Karması - Van</li>
+                        <li>2015 - Anadolu Yıldızlar Ligi Güneydoğu Anadolu Bölgesi - Mardin</li>
+                        <li>2014 - 7 Aralık Kurtuluş Kupası Yıldızlar - Kilis</li>
+                        <li>2014 - Kamil Doğru İller Arası Judo Turnuvası Yıldızlar - Hatay</li>
+                    </ul>
+                </div>
+                <div class="medal silver-medal">
+                    <img src="/images/silver-medal.png" alt="Gümüş Madalya">
+                    <ul class="silver">
+                        <li>2019 - Üniversitelerarası Türkiye Judo Şampiyonası - Zonguldak</li>
+                        <li>2016 - Kamil Doğru İller Arası Judo Turnuvası Ümitler - Hatay</li>
+                        <li>2016 - Anadolu Yıldızlar Ligi Doğu Anadolu - Güneydoğu Anadolu Karması - Muş</li>
+                        <li>2015 - Anadolu Yıldızlar Ligi Türkiye Finali - Aydın/Kuşadası</li>
+                        <li>2014 - Anadolu Yıldızlar Ligi Güneydoğu Anadolu Bölgesi - Adıyaman/Besni</li>
+                        <li>2012 - Minikler Türkiye Judo Şampiyonası - Çorum</li>
+                    </ul>
+                </div>
+                <div class="medal bronze-medal">
+                    <img src="/images/bronze-medal.png" alt="Bronz Madalya">
+                    <ul>
+                        <li>2020 - Gençler Kuraş Türkiye Şampiyonası - Bilecik</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contact" class="bg-dark-blue">
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+                <div class="form-group">
+                    <label for="name">İsim</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="İsim">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-Posta</label>
+                    <input type="text" class="form-control" name="email" id="email" placeholder="E-posta">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mesaj</label>
+                    <textarea name="message" class="form-control" id="message" rows="5" placeholder="Mesajınız..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-block">Gönder</button>
+            </form>
+            <ul>
+                <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
